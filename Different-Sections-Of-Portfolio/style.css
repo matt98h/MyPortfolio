@@ -2,6 +2,7 @@
 .navbar{
 border-bottom: 2px solid lightgray;
 padding:0 16;
+width: 100%;
 
 }
 
@@ -16,12 +17,19 @@ padding:0 16;
 .nav-item{
     padding:15px;
 }
-body{
+.container{
 height: 1000px;
-line-height: 2.0;
+float: left;
+background-color: white;
 }
 .container h1{
     padding-bottom: 30;
+    color: teal;
+    font-size: 30px;
+    font-weight: bold;
+    
 }
+
+
 
 
