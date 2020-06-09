@@ -19,7 +19,7 @@ width: 100%;
 #link-container{
     float: right;
 }
-
+/* about me styles */
 .container{
 height: 1000px;
 float: left;
@@ -41,6 +41,13 @@ background-color: lightgrey !important;
 }
 #profile-picture {
     padding-right:15px; padding-bottom: 15px;
+}
+
+/* portfolio styles */
+
+#first-row{
+    background-color: white;
+    margin:25px 0px;
 }
 
 
