@@ -14,13 +14,23 @@ width: 100%;
     font-family: 'Georgia', Times, Times New Roman, serif;
 
 }
-.nav-item{
-    padding:15px;
+
+
+#link-container{
+    float: right;
 }
+
 .container{
 height: 1000px;
 float: left;
-background-color: white;
+
+background-color: lightgrey !important;
+
+}
+#about-me-container{
+    background-color: white;
+    padding:25px;
+    margin:25px 15px;
 }
 .container h1{
     padding-bottom: 30;
@@ -29,7 +39,9 @@ background-color: white;
     font-weight: bold;
     
 }
-
+#profile-picture {
+    padding-right:15px; padding-bottom: 15px;
+}
 
 
 
