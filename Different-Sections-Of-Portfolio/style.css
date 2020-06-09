@@ -1,0 +1,27 @@
+/* Navbar on large device */
+.navbar{
+border-bottom: 2px solid lightgray;
+padding:0 16;
+
+}
+
+.navbar .navbar-brand{
+    background-color: #4aaaa5;
+    color: white;
+    padding:20px;
+    font-weight: bold;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+.nav-item{
+    padding:15px;
+}
+body{
+height: 1000px;
+line-height: 2.0;
+}
+.container h1{
+    padding-bottom: 30;
+}
+
+
