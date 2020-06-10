@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Contact Information</title>
+  <title>Contact</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -10,6 +10,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -19,39 +20,83 @@
 
   <!-- Header of The page Including my Name -->
   <!-- Nav tabs -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Matthew Huus</a>
+  <header>
+    <div class="header-container">
+      <nav class="navbar navbar-expand-md navbar-collapse-sm navbar-light bg-light pb-0">
+        <a class="navbar-brand" href="index.html">Matthew Huus</a>
 
 
 
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="index.html">About</a>
-        </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="contact.html"><span class="sr-only">(current)</span>Contact</a>
+        <ul class="navbar-nav ml-auto " id="link-container">
+          <li class="nav-item  active">
+            <a class="nav-link " href="index.html">About<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link " href="contact.html">Contact</a>
+          </li>
+        </ul>
 
-        </li>
 
-      </ul>
-
+      </nav>
     </div>
-  </nav>
-  <div class="row " style="margin-top: 15px; padding-top: 25px; margin-left: 15px;padding-left: 25; background-color: white;">
-    <div class="col-xl-6 ">
+  </header>
+  <main class="container">
+    <div class="container" id="contact-heading-container">
       <h1>Contact </h1>
     </div>
+    <div class="card">
+      
+      <div class="card-body">
+       
+
+       
+        <div class="row">
+
+
+
+          <div class="col-xs-12 col-sm-12 col-lg-7">
+            <form>
+              <div class="form-group">
+                <label for="formGroupExampleInput">Name</label>
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Herbie Hancock">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Email address</label>
+                <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="johnsmith123@gmail.com">
+              </div>
+              <div class="form-group">
+                <label for="formGroupExampleInput2">Message</label>
+                <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="Message">
+              </div>
+            </form>
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary">Submit</button>
+
+
+
+
+      </div>
+    </div>
+
+
+
+    </div>
+
+  </main>
+  <!-- Footer -->
+<footer class="page-footer font-small white">
+
+  
+  <div class="footer-copyright text-center py-3">2020 ©Copyright:Matthew Huus
   </div>
+  
 
-
-  </div>
-
-
+</footer>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->

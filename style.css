@@ -20,35 +20,95 @@ width: 100%;
     float: right;
 }
 /* about me styles */
-.container{
+#index-main-container{
 height: 1000px;
 float: left;
+padding:0;
 
-background-color: lightgrey !important;
+margin-right: 0;
 
 }
 #about-me-container{
     background-color: white;
-    padding:25px;
-    margin:25px 15px;
 }
 .container h1{
-    padding-bottom: 30;
+    padding-bottom: 2px;
     color: teal;
     font-size: 30px;
     font-weight: bold;
+    
     
 }
 #profile-picture {
     padding-right:15px; padding-bottom: 15px;
 }
+.container footer{
+    background-color: gray;
+    border-top: 4px solid turquoise;
+ 
+   
+}
 
 /* portfolio styles */
+/*  */
 
 #first-row{
     background-color: white;
     margin:25px 0px;
 }
+/* Contact styles */
+
+#contact-heading-container{
+    margin-top: 15px; padding-top: 25px;padding-left: 25; background-color: white;
+}
+/* media queries for small devices*/
+/* index */
+@media (min-width: 576px){
 
 
 
+#index-main-container{
+    width: 100%;
+    display: block;
+}
+.container h1{
+    width: 100%;
+}
+#footer-container{
+    width: 100%;
+    clear:both;
+}
+a.navbar-brand{
+    width:100%;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+#about-me-paragraph{
+    width: 100%;
+}
+
+
+/* Porftfolio */
+
+/* Contact */
+}
+/* media queries for medium devices */
+/* index */
+@media (min-width: 768px){
+
+    a.navbar-brand{
+        width:33%;
+    }
+
+}
+    @media (min-width: 992px){
+        .card{
+            width: 660px;
+        }
+.container{
+width: 660px;
+align-content: flex-start;
+}
+ }
