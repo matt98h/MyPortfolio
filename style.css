@@ -15,6 +15,9 @@ width: 100%;
 
 }
 
+#contact-main{
+    padding: 0;
+}
 
 #link-container{
     float: right;
